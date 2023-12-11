@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+    "baseUrl": ".",
+    "checkJs": true,
+    "paths": {
+      "@svgedit/*": ["./packages/svgcanvas/*"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": ["./**/*"]
+}
